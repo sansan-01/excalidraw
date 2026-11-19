@@ -18,7 +18,12 @@
 
 # misc
 .DS_Store
+Thumbs.db
 *.pem
+
+# editors
+.idea/
+.vscode/
 
 # debug
 npm-debug.log*
@@ -26,7 +31,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-.env*.local
+.env
+.env.*
+!.env.example
+!.env.*.example
 
 # vercel
 .vercel
